@@ -3,29 +3,21 @@ export const products_0 = [
     _id: '1',
     name: 'Vintage Harajuku sweatshirt-Women',
     image: '/tee_images/IMG_0914.JPG',
-    texture: '100% cotton fabric',
-    weight: '230g weight',
     description: 'Please choose one size up as these run small',
     category: 'Sweatshirt',
     price: 9000,
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 32,
-    rating: 4.5,
-    numReviews: 12,
   },
   {
     _id: '2',
     name: 'Vintage Harajuku sweatshirt-Women',
     image: '/sweatshirt_images/IMG_0924.JPG',
-    texture: '100% cotton fabric',
-    weight: '230g weight',
     description: 'Please choose one size up as these run small',
     category: 'Sweatshirt',
     price: 9000,
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 32,
-    rating: 4.5,
-    numReviews: 12,
   },
 ]
 export const teesItems = [
@@ -33,7 +25,6 @@ export const teesItems = [
     _id: '1',
     name: 'Smile graphics T-Shirt',
     image: '/tee_images/IMG_0844.JPG',
-    texture: '100% cotton fabric',
     description: 'Please choose one size up as these run small',
     category: 'Tees',
     linkName: 'smile-grapgics-t-shirt',
@@ -48,7 +39,6 @@ export const teesItems = [
     _id: '2',
     name: 'Mens short-sleeve equilibrum T-shirt',
     image: '/tee_images/IMG_0846.JPG',
-    texture: '100% cotton fabric',
     description: 'Please choose one size up as these run small ',
     category: 'Tees',
     linkName: 'mens-short-sleeve-equilibrum-t-shirt',
@@ -58,16 +48,13 @@ export const teesItems = [
     price: '7,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 27,
-    rating: 4.0,
     numReviews: 8,
   },
   {
     _id: '3',
     name: 'Guys letter Tee',
     image: '/tee_images/IMG_0847.JPG',
-    texture: '100% cotton fabric',
     description: 'Please choose one size up as these run small ',
-    brand: 'Cannon',
     category: 'Tees',
     linkName: 'guys-letter-tee',
     desc_texture: '100% cotton fabric',
@@ -76,14 +63,11 @@ export const teesItems = [
     price: '8,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 5,
-    rating: 3,
-    numReviews: 12,
   },
   {
     _id: '4',
     name: "Men's cactus & letter graphic tee",
     image: '/tee_images/IMG_0848.JPG',
-    texture: '100% cotton fabric',
     description: 'Please choose one size up as these run small',
     category: 'Tees',
     linkName: 'mens-cactus-&-letter-graphic-tee',
@@ -93,14 +77,11 @@ export const teesItems = [
     price: '8,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 11,
-    rating: 5,
-    numReviews: 12,
   },
   {
     _id: '5',
     name: 'Vintage cherub graphic tee',
     image: '/tee_images/IMG_0849.JPG',
-    texture: '100% cotton fabric',
     description: 'Please choose one size up as these run small',
     category: 'Tees',
     linkName: 'vintage-cherub-graphic-tee',
@@ -110,14 +91,12 @@ export const teesItems = [
     price: '7,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 3.5,
     numReviews: 10,
   },
   {
     _id: '6',
     name: 'Faded Grey Tee',
     image: '/tee_images/IMG_0850.JPG',
-    texture: '100% cotton fabric',
     description: 'Please choose one size up as these run small ',
     category: 'Tees',
     linkName: 'faded-grey-tee',
@@ -127,14 +106,11 @@ export const teesItems = [
     price: '9,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 20,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '7',
     name: 'Designer Tee',
     image: '/tee_images/IMG_0851.JPG',
-    texture: '100% cotton fabric',
     description: 'Please choose one size up as these run small',
     category: 'Tees',
     linkName: 'designer-tee',
@@ -144,14 +120,11 @@ export const teesItems = [
     price: '10,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 17,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '8',
     name: 'Peace Sign embroidery tee',
     image: '/tee_images/IMG_0852.JPG',
-    texture: '100% cotton fabric',
     description: 'Please choose one size up as these run small',
     category: 'Tees',
     linkName: 'peace-sign-embroidery-tee',
@@ -161,14 +134,11 @@ export const teesItems = [
     price: '7,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 15,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '9',
     name: 'Forward Embroidery tee',
     image: '/tee_images/IMG_0853.JPG',
-    texture: '100% cotton fabric',
     description: 'Please choose one size up as these run small',
     category: 'Tees',
     linkName: 'forward-embroidery-tee',
@@ -178,14 +148,11 @@ export const teesItems = [
     price: '7,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 10,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '10',
     name: 'Embroidery tee With Text',
     image: '/tee_images/IMG_0854.JPG',
-    texture: '100% cotton fabric',
     description: 'Please choose one size up as these run small',
     category: 'Tees',
     linkName: 'embroidery-tee-with-text',
@@ -195,8 +162,6 @@ export const teesItems = [
     price: '8,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 12,
-    rating: 4,
-    numReviews: 12,
   },
 ]
 export const footwearItems = [
@@ -209,8 +174,6 @@ export const footwearItems = [
     price: '25,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 10,
-    rating: 4.5,
-    numReviews: 12,
   },
   {
     _id: '2',
@@ -221,7 +184,6 @@ export const footwearItems = [
     price: '36,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 4.0,
     numReviews: 8,
   },
   {
@@ -233,8 +195,6 @@ export const footwearItems = [
     price: '57,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 5,
-    rating: 3,
-    numReviews: 12,
   },
   {
     _id: '4',
@@ -245,8 +205,6 @@ export const footwearItems = [
     price: '27,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 11,
-    rating: 5,
-    numReviews: 12,
   },
   {
     _id: '5',
@@ -257,7 +215,6 @@ export const footwearItems = [
     price: '37,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 3.5,
     numReviews: 10,
   },
   {
@@ -269,8 +226,6 @@ export const footwearItems = [
     price: '45,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 0,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '7',
@@ -281,8 +236,6 @@ export const footwearItems = [
     price: '65,300',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 3,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '8',
@@ -293,8 +246,6 @@ export const footwearItems = [
     price: '30,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 4,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '9',
@@ -305,8 +256,6 @@ export const footwearItems = [
     price: '22,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '10',
@@ -317,8 +266,6 @@ export const footwearItems = [
     price: '19,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 13,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '11',
@@ -329,8 +276,6 @@ export const footwearItems = [
     price: '13,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 0,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '12',
@@ -341,8 +286,6 @@ export const footwearItems = [
     price: '20,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 9,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '13',
@@ -353,8 +296,6 @@ export const footwearItems = [
     price: '33,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 10,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '14',
@@ -365,8 +306,6 @@ export const footwearItems = [
     price: '22,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 1,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '15',
@@ -377,8 +316,6 @@ export const footwearItems = [
     price: '17,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 2,
-    rating: 4,
-    numReviews: 12,
   },
 ]
 export const knitwearItems = [
@@ -393,8 +330,6 @@ export const knitwearItems = [
     price: '17,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 2,
-    rating: 4.5,
-    numReviews: 12,
   },
   {
     _id: '2',
@@ -407,7 +342,6 @@ export const knitwearItems = [
     price: '13,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 4.0,
     numReviews: 8,
   },
   {
@@ -421,8 +355,6 @@ export const knitwearItems = [
     price: '25,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 5,
-    rating: 3,
-    numReviews: 12,
   },
   {
     _id: '4',
@@ -435,8 +367,6 @@ export const knitwearItems = [
     price: '25,200',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 11,
-    rating: 5,
-    numReviews: 12,
   },
   {
     _id: '5',
@@ -449,7 +379,6 @@ export const knitwearItems = [
     price: '12,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 3.5,
     numReviews: 10,
   },
   {
@@ -463,8 +392,6 @@ export const knitwearItems = [
     price: '13,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 1,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '7',
@@ -477,8 +404,6 @@ export const knitwearItems = [
     price: '15,300',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 3,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '8',
@@ -491,8 +416,6 @@ export const knitwearItems = [
     price: '20,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 0,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '9',
@@ -505,8 +428,6 @@ export const knitwearItems = [
     price: '15,100',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 4,
-    numReviews: 12,
   },
 ]
 export const hoodiesItems = [
@@ -522,8 +443,6 @@ export const hoodiesItems = [
     price: '17,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 2,
-    rating: 4.5,
-    numReviews: 12,
   },
   {
     _id: '2',
@@ -537,7 +456,6 @@ export const hoodiesItems = [
     price: '13,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 4.0,
     numReviews: 8,
   },
   {
@@ -552,8 +470,6 @@ export const hoodiesItems = [
     price: '15,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 5,
-    rating: 3,
-    numReviews: 12,
   },
   {
     _id: '4',
@@ -567,8 +483,6 @@ export const hoodiesItems = [
     price: '15,200',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 11,
-    rating: 5,
-    numReviews: 12,
   },
   {
     _id: '5',
@@ -582,7 +496,6 @@ export const hoodiesItems = [
     price: '12,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 3.5,
     numReviews: 10,
   },
   {
@@ -597,8 +510,6 @@ export const hoodiesItems = [
     price: '13,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 0,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '7',
@@ -612,8 +523,6 @@ export const hoodiesItems = [
     price: '15,300',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 1,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '8',
@@ -627,8 +536,6 @@ export const hoodiesItems = [
     price: '20,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 2,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '9',
@@ -642,8 +549,6 @@ export const hoodiesItems = [
     price: '15,100',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 0,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '10',
@@ -657,8 +562,6 @@ export const hoodiesItems = [
     price: '15,100',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 6,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '11',
@@ -672,8 +575,6 @@ export const hoodiesItems = [
     price: '15,100',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 9,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '12',
@@ -687,8 +588,6 @@ export const hoodiesItems = [
     price: '15,100',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '13',
@@ -702,8 +601,6 @@ export const hoodiesItems = [
     price: '15,100',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 13,
-    rating: 4,
-    numReviews: 12,
   },
 ]
 export const capItems = [
@@ -716,8 +613,6 @@ export const capItems = [
     price: '7,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 2,
-    rating: 4.5,
-    numReviews: 12,
   },
   {
     _id: '2',
@@ -728,7 +623,6 @@ export const capItems = [
     price: '3,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 4.0,
     numReviews: 8,
   },
   {
@@ -740,8 +634,6 @@ export const capItems = [
     price: '5,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 5,
-    rating: 3,
-    numReviews: 12,
   },
   {
     _id: '4',
@@ -752,8 +644,6 @@ export const capItems = [
     price: '5,200',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 11,
-    rating: 5,
-    numReviews: 12,
   },
   {
     _id: '5',
@@ -764,7 +654,6 @@ export const capItems = [
     price: '2,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 3.5,
     numReviews: 10,
   },
   {
@@ -776,8 +665,6 @@ export const capItems = [
     price: '3,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 4,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '7',
@@ -788,8 +675,6 @@ export const capItems = [
     price: '5,300',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 1,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '8',
@@ -800,8 +685,6 @@ export const capItems = [
     price: '3,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 0,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '9',
@@ -812,8 +695,6 @@ export const capItems = [
     price: '5,100',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 0,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '10',
@@ -824,8 +705,6 @@ export const capItems = [
     price: '5,100',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 9,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '11',
@@ -836,8 +715,6 @@ export const capItems = [
     price: '5,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 0,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '12',
@@ -848,8 +725,6 @@ export const capItems = [
     price: '5,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 0,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '13',
@@ -860,8 +735,6 @@ export const capItems = [
     price: '6,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '14',
@@ -872,8 +745,6 @@ export const capItems = [
     price: '6,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 23,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '15',
@@ -884,8 +755,6 @@ export const capItems = [
     price: '6,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 11,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '16',
@@ -896,8 +765,6 @@ export const capItems = [
     price: '6,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 0,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '17',
@@ -908,8 +775,6 @@ export const capItems = [
     price: '6,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 4,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '18',
@@ -920,8 +785,6 @@ export const capItems = [
     price: '6,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 25,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '19',
@@ -932,8 +795,6 @@ export const capItems = [
     price: '6,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 13,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '20',
@@ -944,8 +805,6 @@ export const capItems = [
     price: '6,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '21',
@@ -956,8 +815,6 @@ export const capItems = [
     price: '6,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 9,
-    rating: 4,
-    numReviews: 12,
   },
 ]
 export const tshirtItems = [
@@ -971,8 +828,6 @@ export const tshirtItems = [
     price: '17,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 2,
-    rating: 4.5,
-    numReviews: 12,
   },
   {
     _id: '2',
@@ -984,7 +839,6 @@ export const tshirtItems = [
     price: '13,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 4.0,
     numReviews: 8,
   },
   {
@@ -997,8 +851,6 @@ export const tshirtItems = [
     price: '15,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 5,
-    rating: 3,
-    numReviews: 12,
   },
   {
     _id: '4',
@@ -1010,8 +862,6 @@ export const tshirtItems = [
     price: '15,200',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 11,
-    rating: 5,
-    numReviews: 12,
   },
   {
     _id: '5',
@@ -1023,7 +873,6 @@ export const tshirtItems = [
     price: '12,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 3.5,
     numReviews: 10,
   },
   {
@@ -1036,8 +885,6 @@ export const tshirtItems = [
     price: '13,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 0,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '7',
@@ -1049,8 +896,6 @@ export const tshirtItems = [
     price: '15,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 3,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '8',
@@ -1062,8 +907,6 @@ export const tshirtItems = [
     price: '13,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 12,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '9',
@@ -1075,8 +918,6 @@ export const tshirtItems = [
     price: '15,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 8,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '10',
@@ -1088,8 +929,6 @@ export const tshirtItems = [
     price: '15,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 5,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '11',
@@ -1101,8 +940,6 @@ export const tshirtItems = [
     price: '15,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 20,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '12',
@@ -1114,8 +951,6 @@ export const tshirtItems = [
     price: '15,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 17,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '13',
@@ -1127,8 +962,6 @@ export const tshirtItems = [
     price: '15,700',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '14',
@@ -1140,8 +973,6 @@ export const tshirtItems = [
     price: '16,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 0,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '15',
@@ -1153,8 +984,6 @@ export const tshirtItems = [
     price: '16,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 0,
-    rating: 4,
-    numReviews: 12,
   },
 ]
 export const pantsItems = [
@@ -1167,8 +996,6 @@ export const pantsItems = [
     price: '7,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 2,
-    rating: 4.5,
-    numReviews: 12,
   },
   {
     _id: '2',
@@ -1179,7 +1006,6 @@ export const pantsItems = [
     price: '8,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 4.0,
     numReviews: 8,
   },
   {
@@ -1191,8 +1017,6 @@ export const pantsItems = [
     price: '5,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 5,
-    rating: 3,
-    numReviews: 12,
   },
   {
     _id: '4',
@@ -1203,8 +1027,6 @@ export const pantsItems = [
     price: '15,200',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 11,
-    rating: 5,
-    numReviews: 12,
   },
   {
     _id: '5',
@@ -1215,7 +1037,6 @@ export const pantsItems = [
     price: '12,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 3.5,
     numReviews: 10,
   },
   {
@@ -1227,8 +1048,6 @@ export const pantsItems = [
     price: '13,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 0,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '7',
@@ -1239,8 +1058,6 @@ export const pantsItems = [
     price: '7,300',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 0,
-    rating: 4,
-    numReviews: 3,
   },
   {
     _id: '8',
@@ -1251,7 +1068,6 @@ export const pantsItems = [
     price: '7,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 12,
-    rating: 4,
     numReviews: 2,
   },
 ]
@@ -1266,8 +1082,6 @@ export const setsItems = [
     price: '11,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 5,
-    rating: 4.5,
-    numReviews: 12,
   },
   {
     _id: '2',
@@ -1280,7 +1094,6 @@ export const setsItems = [
     price: '8,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 4.0,
     numReviews: 8,
   },
   {
@@ -1293,8 +1106,6 @@ export const setsItems = [
     price: '15,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 5,
-    rating: 3,
-    numReviews: 12,
   },
   {
     _id: '4',
@@ -1306,8 +1117,6 @@ export const setsItems = [
     price: '14,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 5,
-    numReviews: 12,
   },
   {
     _id: '5',
@@ -1319,7 +1128,6 @@ export const setsItems = [
     price: '14,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 3,
-    rating: 3.5,
     numReviews: 10,
   },
   {
@@ -1332,8 +1140,6 @@ export const setsItems = [
     price: '14,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 0,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '7',
@@ -1345,8 +1151,6 @@ export const setsItems = [
     price: '10,300',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 5,
-    rating: 4,
-    numReviews: 3,
   },
   {
     _id: '8',
@@ -1358,8 +1162,6 @@ export const setsItems = [
     price: '10,300',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 5,
-    rating: 4,
-    numReviews: 3,
   },
 ]
 export const newArrivals = [
@@ -1372,8 +1174,6 @@ export const newArrivals = [
     price: '18,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 5,
-    rating: 4.5,
-    numReviews: 12,
   },
   {
     _id: '2',
@@ -1384,7 +1184,6 @@ export const newArrivals = [
     price: '8,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    rating: 4.0,
     numReviews: 8,
   },
   {
@@ -1396,8 +1195,6 @@ export const newArrivals = [
     price: '8,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 5,
-    rating: 3,
-    numReviews: 12,
   },
   {
     _id: '4',
@@ -1408,8 +1205,6 @@ export const newArrivals = [
     price: '10,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 0,
-    rating: 5,
-    numReviews: 12,
   },
   {
     _id: '5',
@@ -1420,8 +1215,6 @@ export const newArrivals = [
     price: '22,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 3,
-    rating: 3.5,
-    numReviews: 10,
   },
   {
     _id: '6',
@@ -1432,8 +1225,6 @@ export const newArrivals = [
     price: '25,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 1,
-    rating: 4,
-    numReviews: 12,
   },
   {
     _id: '7',
@@ -1444,8 +1235,6 @@ export const newArrivals = [
     price: '17,300',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 3,
-    rating: 4,
-    numReviews: 3,
   },
 ]
 export const shortItems = []
