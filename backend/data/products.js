@@ -1,4 +1,4 @@
-const products_0 = [
+export const products_0 = [
   {
     _id: '1',
     name: 'Vintage Harajuku sweatshirt-Women',
@@ -28,7 +28,7 @@ const products_0 = [
     numReviews: 12,
   },
 ]
-const teesItems = [
+export const teesItems = [
   {
     _id: '1',
     name: 'Smile graphics T-Shirt',
@@ -199,7 +199,7 @@ const teesItems = [
     numReviews: 12,
   },
 ]
-const footwearItems = [
+export const footwearItems = [
   {
     _id: '1',
     name: "Men's Toga Pulla Suede Buckle Strap Mules Brown",
@@ -381,7 +381,7 @@ const footwearItems = [
     numReviews: 12,
   },
 ]
-const knitwearItems = [
+export const knitwearItems = [
   {
     _id: '1',
     name: 'Vintage Knitwear',
@@ -509,7 +509,7 @@ const knitwearItems = [
     numReviews: 12,
   },
 ]
-const hoodiesItems = [
+export const hoodiesItems = [
   {
     _id: '1',
     name: 'Winter Fleece Anime Sweatshirt',
@@ -706,7 +706,7 @@ const hoodiesItems = [
     numReviews: 12,
   },
 ]
-const capItems = [
+export const capItems = [
   {
     _id: '1',
     name: 'Brown Baseball Cap',
@@ -960,7 +960,7 @@ const capItems = [
     numReviews: 12,
   },
 ]
-const tshirtItems = [
+export const tshirtItems = [
   {
     _id: '1',
     name: "Men's Contrast Color Stripe Printed Shirt",
@@ -1157,7 +1157,7 @@ const tshirtItems = [
     numReviews: 12,
   },
 ]
-const pantsItems = [
+export const pantsItems = [
   {
     _id: '1',
     name: 'Drawstring Sweatpants',
@@ -1255,7 +1255,7 @@ const pantsItems = [
     numReviews: 2,
   },
 ]
-const setsItems = [
+export const setsItems = [
   {
     _id: '1',
     name: 'Drawstring Sweatpants Set',
@@ -1362,7 +1362,7 @@ const setsItems = [
     numReviews: 3,
   },
 ]
-const newArrivals = [
+export const newArrivals = [
   {
     _id: '1',
     name: 'Winnie Plisse Sweatshirt & Shorts Set',
@@ -1448,17 +1448,4 @@ const newArrivals = [
     numReviews: 3,
   },
 ]
-const shortItems = []
-
-module.exports = {
-  teesItems,
-  hoodiesItems,
-  knitwearItems,
-  footwearItems,
-  tshirtItems,
-  capItems,
-  setsItems,
-  pantsItems,
-  shortItems,
-  newArrivals,
-}
+export const shortItems = []

@@ -1,7 +1,7 @@
-const express = require('express')
-const dotenv = require('dotenv')
-const categoryItems = require('./data/categoryItems')
-const {
+import express from 'express'
+import dotenv from 'dotenv'
+import categoryItems from './data/categoryItems.js'
+import {
   teesItems,
   tshirtItems,
   capItems,
@@ -11,7 +11,7 @@ const {
   setsItems,
   pantsItems,
   shortItems,
-} = require('./data/products')
+} from './data/products.js'
 
 dotenv.config()
 

@@ -46,4 +46,4 @@ const categoryItems = [
   },
 ]
 
-module.exports = categoryItems
+export default categoryItems
