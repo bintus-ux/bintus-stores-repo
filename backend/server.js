@@ -13,6 +13,7 @@ import {
   setsItems,
   pantsItems,
   shortItems,
+  newArrivals,
 } from './data/products.js'
 
 dotenv.config()
@@ -107,6 +108,11 @@ app.get('/api/categoryItems/shorts', (req, res) => {
 app.get('/api/categoryItems/shorts/:id', (req, res) => {
   const short = shortItems.find((p) => p.linkName === req.params.id)
   res.json(short)
+})
+
+app.get('/api/categoryItems/New-Arrivals/:id', (req, res) => {
+  const newArrival = newArrivals.find((p) => p.linkName === req.params.id)
+  res.json(newArrival)
 })
 
 const PORT = process.env.PORT || 5000
