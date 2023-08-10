@@ -84,7 +84,6 @@ export const teesItems = [
     price: '7,500',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    numReviews: 10,
   },
   {
     name: 'Faded Grey Tee',
@@ -170,7 +169,6 @@ export const footwearItems = [
     price: '36,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    numReviews: 8,
   },
   {
     name: 'Air Jordan 1',
@@ -198,7 +196,6 @@ export const footwearItems = [
     price: '37,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    numReviews: 10,
   },
   {
     name: "Nike Air Mag 'Grey Mag'",
@@ -313,7 +310,6 @@ export const knitwearItems = [
     price: '13,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    numReviews: 8,
   },
   {
     name: 'Knitted Cardigan Deep Grey',
@@ -347,7 +343,6 @@ export const knitwearItems = [
     price: '12,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    numReviews: 10,
   },
   {
     name: 'Knitted Cardigan Light Pink With Round Neckline',
@@ -418,7 +413,6 @@ export const hoodiesItems = [
     price: '13,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    numReviews: 8,
   },
   {
     name: 'Black Nylon Color Block Hoodie',
@@ -455,7 +449,6 @@ export const hoodiesItems = [
     price: '12,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    numReviews: 10,
   },
   {
     name: 'Black Grey Hoodie',
@@ -572,7 +565,6 @@ export const capItems = [
     price: '3,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    numReviews: 8,
   },
   {
     name: 'Letter Embroidered Baseball Cap',
@@ -600,7 +592,6 @@ export const capItems = [
     price: '2,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    numReviews: 10,
   },
   {
     name: "Men's Green Oakland Cap",
@@ -767,7 +758,6 @@ export const tshirtItems = [
     price: '13,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    numReviews: 8,
   },
   {
     name: "Men's Fashion Color Block Stripe Shirt",
@@ -798,7 +788,6 @@ export const tshirtItems = [
     price: '12,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    numReviews: 10,
   },
   {
     name: "Men's Hawaiian Shirt Apricot Vintage",
@@ -919,7 +908,6 @@ export const pantsItems = [
     price: '8,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    numReviews: 8,
   },
   {
     name: 'Custom Sweatpants',
@@ -947,7 +935,6 @@ export const pantsItems = [
     price: '12,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    numReviews: 10,
   },
   {
     name: "Men's Chrome Heart Blue Jeans",
@@ -975,7 +962,6 @@ export const pantsItems = [
     price: '7,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 12,
-    numReviews: 2,
   },
 ]
 export const setsItems = [
@@ -999,7 +985,6 @@ export const setsItems = [
     price: '8,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    numReviews: 8,
   },
   {
     name: "Men's Sets Stripe Black & White With Trouser",
@@ -1030,7 +1015,6 @@ export const setsItems = [
     price: '14,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 3,
-    numReviews: 10,
   },
   {
     name: "Men's Shirt & Drawstring Short Sets",
@@ -1081,7 +1065,6 @@ export const newArrivals = [
     price: '8,000',
     info: 'Tax included. Shipping calculated at checkout.',
     countInStock: 7,
-    numReviews: 8,
   },
   {
     name: 'Moutain Print & Rose Drawstring Hoodie',
