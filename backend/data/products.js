@@ -1,6 +1,5 @@
 export const products_0 = [
   {
-    _id: '1',
     name: 'Vintage Harajuku sweatshirt-Women',
     image: '/tee_images/IMG_0914.JPG',
     description: 'Please choose one size up as these run small',
@@ -10,7 +9,6 @@ export const products_0 = [
     countInStock: 32,
   },
   {
-    _id: '2',
     name: 'Vintage Harajuku sweatshirt-Women',
     image: '/sweatshirt_images/IMG_0924.JPG',
     description: 'Please choose one size up as these run small',
@@ -22,7 +20,6 @@ export const products_0 = [
 ]
 export const teesItems = [
   {
-    _id: '1',
     name: 'Smile graphics T-Shirt',
     image: '/tee_images/IMG_0844.JPG',
     description: 'Please choose one size up as these run small',
@@ -36,7 +33,6 @@ export const teesItems = [
     countInStock: 32,
   },
   {
-    _id: '2',
     name: 'Mens short-sleeve equilibrum T-shirt',
     image: '/tee_images/IMG_0846.JPG',
     description: 'Please choose one size up as these run small ',
@@ -51,7 +47,6 @@ export const teesItems = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: 'Guys letter Tee',
     image: '/tee_images/IMG_0847.JPG',
     description: 'Please choose one size up as these run small ',
@@ -65,7 +60,6 @@ export const teesItems = [
     countInStock: 5,
   },
   {
-    _id: '4',
     name: "Men's cactus & letter graphic tee",
     image: '/tee_images/IMG_0848.JPG',
     description: 'Please choose one size up as these run small',
@@ -79,7 +73,6 @@ export const teesItems = [
     countInStock: 11,
   },
   {
-    _id: '5',
     name: 'Vintage cherub graphic tee',
     image: '/tee_images/IMG_0849.JPG',
     description: 'Please choose one size up as these run small',
@@ -94,7 +87,6 @@ export const teesItems = [
     numReviews: 10,
   },
   {
-    _id: '6',
     name: 'Faded Grey Tee',
     image: '/tee_images/IMG_0850.JPG',
     description: 'Please choose one size up as these run small ',
@@ -108,7 +100,6 @@ export const teesItems = [
     countInStock: 20,
   },
   {
-    _id: '7',
     name: 'Designer Tee',
     image: '/tee_images/IMG_0851.JPG',
     description: 'Please choose one size up as these run small',
@@ -122,7 +113,6 @@ export const teesItems = [
     countInStock: 17,
   },
   {
-    _id: '8',
     name: 'Peace Sign embroidery tee',
     image: '/tee_images/IMG_0852.JPG',
     description: 'Please choose one size up as these run small',
@@ -136,7 +126,6 @@ export const teesItems = [
     countInStock: 15,
   },
   {
-    _id: '9',
     name: 'Forward Embroidery tee',
     image: '/tee_images/IMG_0853.JPG',
     description: 'Please choose one size up as these run small',
@@ -150,7 +139,6 @@ export const teesItems = [
     countInStock: 10,
   },
   {
-    _id: '10',
     name: 'Embroidery tee With Text',
     image: '/tee_images/IMG_0854.JPG',
     description: 'Please choose one size up as these run small',
@@ -166,7 +154,6 @@ export const teesItems = [
 ]
 export const footwearItems = [
   {
-    _id: '1',
     name: "Men's Toga Pulla Suede Buckle Strap Mules Brown",
     image: '/footwear_images/IMG_2041.JPG',
     category: 'Footwears',
@@ -176,7 +163,6 @@ export const footwearItems = [
     countInStock: 10,
   },
   {
-    _id: '2',
     name: 'Canvas Sneaker',
     image: '/footwear_images/IMG_1944.JPG',
     category: 'Footwears',
@@ -187,7 +173,6 @@ export const footwearItems = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: 'Air Jordan 1',
     image: '/footwear_images/IMG_1943.JPG',
     category: 'Footwears',
@@ -197,7 +182,6 @@ export const footwearItems = [
     countInStock: 5,
   },
   {
-    _id: '4',
     name: 'Wild Sand Knit Runner',
     image: '/footwear_images/IMG_0820.JPG',
     category: 'Footwears',
@@ -207,7 +191,6 @@ export const footwearItems = [
     countInStock: 11,
   },
   {
-    _id: '5',
     name: "Men's Nike Air Barrage",
     image: '/footwear_images/IMG_0821.JPG',
     category: 'Footwears',
@@ -218,7 +201,6 @@ export const footwearItems = [
     numReviews: 10,
   },
   {
-    _id: '6',
     name: "Nike Air Mag 'Grey Mag'",
     image: '/footwear_images/IMG_0823.JPG',
     category: 'Footwears',
@@ -228,7 +210,6 @@ export const footwearItems = [
     countInStock: 0,
   },
   {
-    _id: '7',
     name: "Air More Uptempo 'Black White'",
     image: '/footwear_images/IMG_0824.JPG',
     category: 'Footwears',
@@ -238,7 +219,6 @@ export const footwearItems = [
     countInStock: 3,
   },
   {
-    _id: '8',
     name: 'Trainers Sneakers Shoe',
     image: '/footwear_images/IMG_0825.JPG',
     category: 'Footwears',
@@ -248,7 +228,6 @@ export const footwearItems = [
     countInStock: 4,
   },
   {
-    _id: '9',
     name: 'Lace Up Chunky Shoes',
     image: '/footwear_images/IMG_0826.JPG',
     category: 'Footwears',
@@ -258,7 +237,6 @@ export const footwearItems = [
     countInStock: 7,
   },
   {
-    _id: '10',
     name: 'Versace Black Leather Sandals',
     image: '/footwear_images/IMG_0827.JPG',
     category: 'Footwears',
@@ -268,7 +246,6 @@ export const footwearItems = [
     countInStock: 13,
   },
   {
-    _id: '11',
     name: 'Arizona Soft Slide Sandal',
     image: '/footwear_images/IMG_0828.JPG',
     category: 'Footwears',
@@ -278,7 +255,6 @@ export const footwearItems = [
     countInStock: 0,
   },
   {
-    _id: '12',
     name: 'Lightweight Casual Shoes',
     image: '/footwear_images/IMG_0818.JPG',
     category: 'Footwears',
@@ -288,7 +264,6 @@ export const footwearItems = [
     countInStock: 9,
   },
   {
-    _id: '13',
     name: 'Custom Nike Airforce 1',
     image: '/footwear_images/IMG_1946.JPG',
     category: 'Footwears',
@@ -298,7 +273,6 @@ export const footwearItems = [
     countInStock: 10,
   },
   {
-    _id: '14',
     name: 'Barklay Canvas Plain Toe Oxford',
     image: '/footwear_images/IMG_1949.JPG',
     category: 'Footwears',
@@ -308,7 +282,6 @@ export const footwearItems = [
     countInStock: 1,
   },
   {
-    _id: '15',
     name: 'Non-Slip EVA Flip Flops',
     image: '/footwear_images/IMG_1951.JPG',
     category: 'Footwears',
@@ -320,7 +293,6 @@ export const footwearItems = [
 ]
 export const knitwearItems = [
   {
-    _id: '1',
     name: 'Vintage Knitwear',
     image: '/knitwear_images/IMG_1952.JPG',
     category: 'Knitwears',
@@ -332,7 +304,6 @@ export const knitwearItems = [
     countInStock: 2,
   },
   {
-    _id: '2',
     name: 'Knitwear Item Patchwork',
     image: '/knitwear_images/IMG_1953.JPG',
     category: 'Knitwears',
@@ -345,7 +316,6 @@ export const knitwearItems = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: 'Knitted Cardigan Deep Grey',
     image: '/knitwear_images/IMG_1954.JPG',
     category: 'Knitwears',
@@ -357,7 +327,6 @@ export const knitwearItems = [
     countInStock: 5,
   },
   {
-    _id: '4',
     name: 'Knitted Sweater Stripe White With V-neckline',
     image: '/knitwear_images/IMG_1956.JPG',
     category: 'Knitwears',
@@ -369,7 +338,6 @@ export const knitwearItems = [
     countInStock: 11,
   },
   {
-    _id: '5',
     name: 'Knitted Sweater Turtleneck Deep Grey',
     image: '/knitwear_images/IMG_1957.JPG',
     category: 'Knitwears',
@@ -382,7 +350,6 @@ export const knitwearItems = [
     numReviews: 10,
   },
   {
-    _id: '6',
     name: 'Knitted Cardigan Light Pink With Round Neckline',
     image: '/knitwear_images/IMG_1959.JPG',
     category: 'Knitwears',
@@ -394,7 +361,6 @@ export const knitwearItems = [
     countInStock: 1,
   },
   {
-    _id: '7',
     name: 'Fancy Knitted Sweater',
     image: '/knitwear_images/IMG_1960.JPG',
     category: 'Knitwears',
@@ -406,7 +372,6 @@ export const knitwearItems = [
     countInStock: 3,
   },
   {
-    _id: '8',
     name: 'Knitted Sweater Spiral Patchwork Color',
     image: '/knitwear_images/IMG_1961.JPG',
     category: 'Knitwears',
@@ -418,7 +383,6 @@ export const knitwearItems = [
     countInStock: 0,
   },
   {
-    _id: '9',
     name: 'Knitted Cardigan With Horizontal Stripe Color',
     image: '/knitwear_images/IMG_1962.JPG',
     category: 'Knitwears',
@@ -432,7 +396,6 @@ export const knitwearItems = [
 ]
 export const hoodiesItems = [
   {
-    _id: '1',
     name: 'Winter Fleece Anime Sweatshirt',
     image: '/hoodies_images/IMG_0829.JPG',
     category: 'Hoodies',
@@ -445,7 +408,6 @@ export const hoodiesItems = [
     countInStock: 2,
   },
   {
-    _id: '2',
     name: 'Layered Hoodie',
     image: '/hoodies_images/IMG_0830.JPG',
     category: 'Hoodies',
@@ -459,7 +421,6 @@ export const hoodiesItems = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: 'Black Nylon Color Block Hoodie',
     image: '/hoodies_images/IMG_0831.JPG',
     category: 'Hoodies',
@@ -472,7 +433,6 @@ export const hoodiesItems = [
     countInStock: 5,
   },
   {
-    _id: '4',
     name: 'White Hoodie',
     image: '/hoodies_images/IMG_0832.JPG',
     category: 'Hoodies',
@@ -485,7 +445,6 @@ export const hoodiesItems = [
     countInStock: 11,
   },
   {
-    _id: '5',
     name: 'White Hoodie With Rose Design',
     image: '/hoodies_images/IMG_0833.JPG',
     category: 'Hoodies',
@@ -499,7 +458,6 @@ export const hoodiesItems = [
     numReviews: 10,
   },
   {
-    _id: '6',
     name: 'Black Grey Hoodie',
     image: '/hoodies_images/IMG_0834.JPG',
     category: 'Hoodies',
@@ -512,7 +470,6 @@ export const hoodiesItems = [
     countInStock: 0,
   },
   {
-    _id: '7',
     name: 'Green Fancy Hoodie',
     image: '/hoodies_images/IMG_0835.JPG',
     category: 'Hoodies',
@@ -525,7 +482,6 @@ export const hoodiesItems = [
     countInStock: 1,
   },
   {
-    _id: '8',
     name: 'Purple With Black Hoodie Sweatshirt',
     image: '/hoodies_images/IMG_0836.JPG',
     category: 'Hoodies',
@@ -538,7 +494,6 @@ export const hoodiesItems = [
     countInStock: 2,
   },
   {
-    _id: '9',
     name: 'Black Hoodie With Red Rose Design',
     image: '/hoodies_images/IMG_0837.JPG',
     category: 'Hoodies',
@@ -551,7 +506,6 @@ export const hoodiesItems = [
     countInStock: 0,
   },
   {
-    _id: '10',
     name: "Men's Crazy Patch Detail With White Hoodie",
     image: '/hoodies_images/IMG_0838.JPG',
     category: 'Hoodies',
@@ -564,7 +518,6 @@ export const hoodiesItems = [
     countInStock: 6,
   },
   {
-    _id: '11',
     name: "Men's Designer Hoodie",
     image: '/hoodies_images/IMG_0839.JPG',
     category: 'Hoodies',
@@ -577,7 +530,6 @@ export const hoodiesItems = [
     countInStock: 9,
   },
   {
-    _id: '12',
     name: "Fancy Men's Designer Hoodie",
     image: '/hoodies_images/IMG_0840.JPG',
     category: 'Hoodies',
@@ -590,7 +542,6 @@ export const hoodiesItems = [
     countInStock: 7,
   },
   {
-    _id: '13',
     name: 'Essentials Hoodie Sweatshirt',
     image: '/hoodies_images/IMG_0841.JPG',
     category: 'Hoodies',
@@ -605,7 +556,6 @@ export const hoodiesItems = [
 ]
 export const capItems = [
   {
-    _id: '1',
     name: 'Brown Baseball Cap',
     image: '/cap_images/IMG_0774.JPG',
     category: 'Caps',
@@ -615,7 +565,6 @@ export const capItems = [
     countInStock: 2,
   },
   {
-    _id: '2',
     name: 'City Of Angels A-Frame Snapback',
     image: '/cap_images/IMG_0775.JPG',
     category: 'Caps',
@@ -626,7 +575,6 @@ export const capItems = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: 'Letter Embroidered Baseball Cap',
     image: '/cap_images/IMG_0776.JPG',
     category: 'Caps',
@@ -636,7 +584,6 @@ export const capItems = [
     countInStock: 5,
   },
   {
-    _id: '4',
     name: "Men's NY Yankees Cap",
     image: '/cap_images/IMG_0777.JPG',
     category: 'Caps',
@@ -646,7 +593,6 @@ export const capItems = [
     countInStock: 11,
   },
   {
-    _id: '5',
     name: 'LA Snapback Baseball Cap',
     image: '/cap_images/IMG_0778.JPG',
     category: 'Caps',
@@ -657,7 +603,6 @@ export const capItems = [
     numReviews: 10,
   },
   {
-    _id: '6',
     name: "Men's Green Oakland Cap",
     image: '/cap_images/IMG_0779.JPG',
     category: 'Caps',
@@ -667,7 +612,6 @@ export const capItems = [
     countInStock: 4,
   },
   {
-    _id: '7',
     name: 'Fancy Designer Cap',
     image: '/cap_images/IMG_0780.JPG',
     category: 'Caps',
@@ -677,7 +621,6 @@ export const capItems = [
     countInStock: 1,
   },
   {
-    _id: '8',
     name: 'Letter Graphic Baseball Cap',
     image: '/cap_images/IMG_0781.JPG',
     category: 'Caps',
@@ -687,7 +630,6 @@ export const capItems = [
     countInStock: 0,
   },
   {
-    _id: '9',
     name: "Women's Bucket Hat With Rings",
     image: '/cap_images/IMG_0782.JPG',
     category: 'Caps',
@@ -697,7 +639,6 @@ export const capItems = [
     countInStock: 0,
   },
   {
-    _id: '10',
     name: 'Peace Hand Baseball Hat',
     image: '/cap_images/IMG_0784.JPG',
     category: 'Caps',
@@ -707,7 +648,6 @@ export const capItems = [
     countInStock: 9,
   },
   {
-    _id: '11',
     name: "Men's Chicago White Sox New Era Black Cap",
     image: '/cap_images/IMG_0786.JPG',
     category: 'Caps',
@@ -717,7 +657,6 @@ export const capItems = [
     countInStock: 0,
   },
   {
-    _id: '12',
     name: 'The Punisher Hat',
     image: '/cap_images/IMG_0787.JPG',
     category: 'Caps',
@@ -727,7 +666,6 @@ export const capItems = [
     countInStock: 0,
   },
   {
-    _id: '13',
     name: 'Fancy Crazy Faded Cap',
     image: '/cap_images/IMG_0816.JPG',
     category: 'Caps',
@@ -737,7 +675,6 @@ export const capItems = [
     countInStock: 7,
   },
   {
-    _id: '14',
     name: 'Flaming Blaze Design  Cap',
     image: '/cap_images/IMG_0789.JPG',
     category: 'Caps',
@@ -747,7 +684,6 @@ export const capItems = [
     countInStock: 23,
   },
   {
-    _id: '15',
     name: 'Plain Black Cap With Rings',
     image: '/cap_images/IMG_0792.JPG',
     category: 'Caps',
@@ -757,7 +693,6 @@ export const capItems = [
     countInStock: 11,
   },
   {
-    _id: '16',
     name: 'Daisy Washed Denim Cap In Grey',
     image: '/cap_images/IMG_0794.JPG',
     category: 'Caps',
@@ -767,7 +702,6 @@ export const capItems = [
     countInStock: 0,
   },
   {
-    _id: '17',
     name: 'Crazy Design Orange Cap',
     image: '/cap_images/IMG_0798.JPG',
     category: 'Caps',
@@ -777,7 +711,6 @@ export const capItems = [
     countInStock: 4,
   },
   {
-    _id: '18',
     name: 'White Cap With Blue Text Design',
     image: '/cap_images/IMG_0799.JPG',
     category: 'Caps',
@@ -787,7 +720,6 @@ export const capItems = [
     countInStock: 25,
   },
   {
-    _id: '19',
     name: 'New Era Chicago Bulls Black Red Cap',
     image: '/cap_images/IMG_0801.JPG',
     category: 'Caps',
@@ -797,7 +729,6 @@ export const capItems = [
     countInStock: 13,
   },
   {
-    _id: '20',
     name: 'R Text Hat',
     image: '/cap_images/IMG_0803.JPG',
     category: 'Caps',
@@ -807,7 +738,6 @@ export const capItems = [
     countInStock: 7,
   },
   {
-    _id: '21',
     name: 'Mercedes-Benz Baseball Hat',
     image: '/cap_images/IMG_0807.JPG',
     category: 'Caps',
@@ -819,7 +749,6 @@ export const capItems = [
 ]
 export const tshirtItems = [
   {
-    _id: '1',
     name: "Men's Contrast Color Stripe Printed Shirt",
     image: '/tshirt_images/IMG_1969.JPG',
     category: 'Tshirts',
@@ -830,7 +759,6 @@ export const tshirtItems = [
     countInStock: 2,
   },
   {
-    _id: '2',
     name: "Men's Cotton Embroidered Casual Shirt",
     image: '/tshirt_images/IMG_1970.JPG',
     category: 'Tshirts',
@@ -842,7 +770,6 @@ export const tshirtItems = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: "Men's Fashion Color Block Stripe Shirt",
     image: '/tshirt_images/IMG_1971.JPG',
     category: 'Tshirts',
@@ -853,7 +780,6 @@ export const tshirtItems = [
     countInStock: 5,
   },
   {
-    _id: '4',
     name: "Men's Carp Warrior Cat Print Japanese Shirt",
     image: '/tshirt_images/IMG_1972.JPG',
     category: 'Tshirts',
@@ -864,7 +790,6 @@ export const tshirtItems = [
     countInStock: 11,
   },
   {
-    _id: '5',
     name: "Men's Casual Color Block Loose Shirt",
     image: '/tshirt_images/IMG_1973.JPG',
     category: 'Tshirts',
@@ -876,7 +801,6 @@ export const tshirtItems = [
     numReviews: 10,
   },
   {
-    _id: '6',
     name: "Men's Hawaiian Shirt Apricot Vintage",
     image: '/tshirt_images/IMG_1974.JPG',
     category: 'Tshirts',
@@ -887,7 +811,6 @@ export const tshirtItems = [
     countInStock: 0,
   },
   {
-    _id: '7',
     name: "Men's Asymmetric Tribal Printed Shirt",
     image: '/tshirt_images/IMG_1975.JPG',
     category: 'Tshirts',
@@ -898,7 +821,6 @@ export const tshirtItems = [
     countInStock: 3,
   },
   {
-    _id: '8',
     name: "Men's Front And Back Plum Blossom Shirt",
     image: '/tshirt_images/IMG_1976.JPG',
     category: 'Tshirts',
@@ -909,7 +831,6 @@ export const tshirtItems = [
     countInStock: 12,
   },
   {
-    _id: '9',
     name: "Men's Letter Geometric Print Patchwork Shirt",
     image: '/tshirt_images/IMG_1977.JPG',
     category: 'Tshirts',
@@ -920,7 +841,6 @@ export const tshirtItems = [
     countInStock: 8,
   },
   {
-    _id: '10',
     name: "Men's Printed Shirt Button Down Short Sleeve",
     image: '/tshirt_images/IMG_1978.JPG',
     category: 'Tshirts',
@@ -931,7 +851,6 @@ export const tshirtItems = [
     countInStock: 5,
   },
   {
-    _id: '11',
     name: "Vintage Men's Shirt",
     image: '/tshirt_images/IMG_1979.JPG',
     category: 'Tshirts',
@@ -942,7 +861,6 @@ export const tshirtItems = [
     countInStock: 20,
   },
   {
-    _id: '12',
     name: "Fancy Men's Designer Shirt",
     image: '/tshirt_images/IMG_1981.JPG',
     category: 'Tshirts',
@@ -953,7 +871,6 @@ export const tshirtItems = [
     countInStock: 17,
   },
   {
-    _id: '13',
     name: "Men's Plaid Print Drawstring Hooded Overcoat",
     image: '/tshirt_images/IMG_1634.JPG',
     category: 'Tshirts',
@@ -964,7 +881,6 @@ export const tshirtItems = [
     countInStock: 7,
   },
   {
-    _id: '14',
     name: 'Vintage Flannel Shirt',
     image: '/tshirt_images/IMG_1638.JPG',
     category: 'Tshirts',
@@ -975,7 +891,6 @@ export const tshirtItems = [
     countInStock: 0,
   },
   {
-    _id: '15',
     name: "Men's Tropical Plant Parrot Print Shirts",
     image: '/tshirt_images/IMG_2091.JPG',
     category: 'Tshirts',
@@ -988,7 +903,6 @@ export const tshirtItems = [
 ]
 export const pantsItems = [
   {
-    _id: '1',
     name: 'Drawstring Sweatpants',
     image: '/pant_images/IMG_0855.JPG',
     category: 'Pants',
@@ -998,7 +912,6 @@ export const pantsItems = [
     countInStock: 2,
   },
   {
-    _id: '2',
     name: 'Cargo Juggers',
     image: '/pant_images/IMG_0856.JPG',
     category: 'Pants',
@@ -1009,7 +922,6 @@ export const pantsItems = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: 'Custom Sweatpants',
     image: '/pant_images/IMG_0857.JPG',
     category: 'Pants',
@@ -1019,7 +931,6 @@ export const pantsItems = [
     countInStock: 5,
   },
   {
-    _id: '4',
     name: 'Street Game Jeans',
     image: '/pant_images/IMG_0858.JPG',
     category: 'Pants',
@@ -1029,7 +940,6 @@ export const pantsItems = [
     countInStock: 11,
   },
   {
-    _id: '5',
     name: "Men's Washed Pocket Cargo Jeans",
     image: '/pant_images/IMG_0859.JPG',
     category: 'Pants',
@@ -1040,7 +950,6 @@ export const pantsItems = [
     numReviews: 10,
   },
   {
-    _id: '6',
     name: "Men's Chrome Heart Blue Jeans",
     image: '/pant_images/IMG_0861.JPG',
     category: 'Pants',
@@ -1050,7 +959,6 @@ export const pantsItems = [
     countInStock: 0,
   },
   {
-    _id: '7',
     name: "Men's Chrome Heart Washed Grey Jeans",
     image: '/pant_images/IMG_0863.JPG',
     category: 'Pants',
@@ -1060,7 +968,6 @@ export const pantsItems = [
     countInStock: 0,
   },
   {
-    _id: '8',
     name: 'Fancy Design Jeans',
     image: '/pant_images/IMG_0865.JPG',
     category: 'Pants',
@@ -1073,7 +980,6 @@ export const pantsItems = [
 ]
 export const setsItems = [
   {
-    _id: '1',
     name: 'Drawstring Sweatpants Set',
     image: '/sets_images/IMG_2043.JPG',
     category: 'Sets',
@@ -1084,7 +990,6 @@ export const setsItems = [
     countInStock: 5,
   },
   {
-    _id: '2',
     name: "Men's Lapel Neck Pocket Patched Shirt & Paisley Print Drawstring Waist Shorts",
     image: '/sets_images/IMG_2044.JPG',
     category: 'Sets',
@@ -1097,7 +1002,6 @@ export const setsItems = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: "Men's Sets Stripe Black & White With Trouser",
     image: '/sets_images/IMG_2046.JPG',
     category: 'Sets',
@@ -1108,7 +1012,6 @@ export const setsItems = [
     countInStock: 5,
   },
   {
-    _id: '4',
     name: "Men's Two Piece Outfits, Shirts & Shorts Sets",
     image: '/sets_images/IMG_2049.JPG',
     category: 'Sets',
@@ -1119,7 +1022,6 @@ export const setsItems = [
     countInStock: 7,
   },
   {
-    _id: '5',
     name: "Men's Floral Print Shirt & Drawstring Waist Short Without Tee",
     image: '/sets_images/IMG_2051.JPG',
     category: 'Sets',
@@ -1131,7 +1033,6 @@ export const setsItems = [
     numReviews: 10,
   },
   {
-    _id: '6',
     name: "Men's Shirt & Drawstring Short Sets",
     image: '/sets_images/IMG_1966.JPG',
     category: 'Sets',
@@ -1142,7 +1043,6 @@ export const setsItems = [
     countInStock: 0,
   },
   {
-    _id: '7',
     name: "Men's Shirt with Shorts Sets",
     image: '/sets_images/IMG_2053.JPG',
     category: 'Sets',
@@ -1153,7 +1053,6 @@ export const setsItems = [
     countInStock: 5,
   },
   {
-    _id: '8',
     name: "Men's Shirt with Shorts Sets",
     image: '/sets_images/IMG_1968.JPG',
     category: 'Sets',
@@ -1166,7 +1065,6 @@ export const setsItems = [
 ]
 export const newArrivals = [
   {
-    _id: '1',
     name: 'Winnie Plisse Sweatshirt & Shorts Set',
     image: '/newarrivals_images/IMG_0769.JPG',
     category: 'New-Arrivals',
@@ -1176,7 +1074,6 @@ export const newArrivals = [
     countInStock: 5,
   },
   {
-    _id: '2',
     name: 'LA Print Drawstring Hoodie',
     image: '/newarrivals_images/IMG_0925.JPG',
     category: 'New-Arrivals',
@@ -1187,7 +1084,6 @@ export const newArrivals = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: 'Moutain Print & Rose Drawstring Hoodie',
     image: '/newarrivals_images/IMG_0926.JPG',
     category: 'New-Arrivals',
@@ -1197,7 +1093,6 @@ export const newArrivals = [
     countInStock: 5,
   },
   {
-    _id: '4',
     name: 'Island Cream Hawaiian Rayon Shirt',
     image: '/newarrivals_images/IMG_2058.JPG',
     category: 'New-Arrivals',
@@ -1207,7 +1102,6 @@ export const newArrivals = [
     countInStock: 0,
   },
   {
-    _id: '5',
     name: "Men's Colorblock Shirt & Drawstring Waist Pants",
     image: '/newarrivals_images/IMG_2059.JPG',
     category: 'New-Arrivals',
@@ -1217,7 +1111,6 @@ export const newArrivals = [
     countInStock: 3,
   },
   {
-    _id: '6',
     name: "Men's Lapel Collar Shirt With Drawstring Shorts Set",
     image: '/newarrivals_images/IMG_2060.JPG',
     category: 'New-Arrivals',
@@ -1227,7 +1120,6 @@ export const newArrivals = [
     countInStock: 1,
   },
   {
-    _id: '7',
     name: "Men's Cartoon & Geo Print Shirt",
     image: '/newarrivals_images/IMG_2065.JPG',
     category: 'New-Arrivals',
