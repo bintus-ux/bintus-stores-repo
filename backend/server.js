@@ -6,7 +6,6 @@ import categoryItems from './data/categoryItems.js'
 import {
   teesItems,
   tshirtItems,
-  capItems,
   hoodiesItems,
   knitwearItems,
   footwearItems,
@@ -15,6 +14,7 @@ import {
   shortItems,
   newArrivals,
 } from './data/products.js'
+import capsRouter from './routes/capsRoute.js'
 
 dotenv.config()
 
@@ -25,6 +25,8 @@ const app = express()
 app.get('/', (req, res) => {
   res.send('API is running....')
 })
+
+app.use('/api/categoryItems/caps', capsRouter)
 
 app.get('/api/categoryItems', (req, res) => {
   res.json(categoryItems)
@@ -37,15 +39,6 @@ app.get('/api/categoryItems/tees', (req, res) => {
 app.get('/api/categoryItems/tees/:id', (req, res) => {
   const tees = teesItems.find((p) => p.linkName === req.params.id)
   res.json(tees)
-})
-
-app.get('/api/categoryItems/caps', (req, res) => {
-  res.json(capItems)
-})
-
-app.get('/api/categoryItems/caps/:id', (req, res) => {
-  const cap = capItems.find((p) => p.linkName === req.params.id)
-  res.json(cap)
 })
 
 app.get('/api/categoryItems/tshirts', (req, res) => {

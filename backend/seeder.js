@@ -34,11 +34,53 @@ const importData = async () => {
 
     const adminUser = createdUsers[0]._id
 
-    const teeItems = teesItems.map((product) => {
+    const teeItem = teesItems.map((product) => {
       return { ...product, user: adminUser }
     })
 
-    await Product.insertMany(teeItems)
+    const pantItem = pantsItems.map((product) => {
+      return { ...product, user: adminUser }
+    })
+
+    const setItem = setsItems.map((product) => {
+      return { ...product, user: adminUser }
+    })
+
+    const tshirtsItem = tshirtItems.map((product) => {
+      return { ...product, user: adminUser }
+    })
+
+    const newArrival = newArrivals.map((product) => {
+      return { ...product, user: adminUser }
+    })
+
+    const capItem = capItems.map((product) => {
+      return { ...product, user: adminUser }
+    })
+
+    const hoodieItem = hoodiesItems.map((product) => {
+      return { ...product, user: adminUser }
+    })
+
+    const knitwearItem = knitwearItems.map((product) => {
+      return { ...product, user: adminUser }
+    })
+
+    const footwearItem = footwearItems.map((product) => {
+      return { ...product, user: adminUser }
+    })
+
+    await Product.insertMany([
+      teeItem,
+      pantItem,
+      setItem,
+      tshirtsItem,
+      newArrival,
+      capItem,
+      hoodieItem,
+      knitwearItem,
+      footwearItem,
+    ])
 
     console.log('Data Imported!'.green.inverse)
     process.exit()
