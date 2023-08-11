@@ -3,17 +3,18 @@ import dotenv from 'dotenv'
 import colors from 'colors'
 import users from './data/users.js'
 import categoryItems from './data/categoryItems.js'
+// import sets from './data/sets.json' assert { type: 'json' }
+// import tees from './data/tees.json' assert { type: 'json' }
 import {
   teesItems,
-  tshirtItems,
   capItems,
+  tshirtItems,
+  newArrivals,
+  setsItems,
+  pantsItems,
   hoodiesItems,
   knitwearItems,
   footwearItems,
-  setsItems,
-  pantsItems,
-  shortItems,
-  newArrivals,
 } from './data/products.js'
 import User from './models/userModel.js'
 import Product from './models/productModel.js'
@@ -23,6 +24,10 @@ import connectDB from './config/db.js'
 dotenv.config()
 
 connectDB()
+
+// import fs from 'fs'
+// const jsonData = fs.readFileSync(sets, 'utf8')
+// const data = JSON.parse(jsonData)
 
 const importData = async () => {
   try {
@@ -34,53 +39,58 @@ const importData = async () => {
 
     const adminUser = createdUsers[0]._id
 
-    const teeItem = teesItems.map((product) => {
+    const teesItem = teesItems.map((product) => {
+      return { ...product, user: adminUser }
+    })
+    await Product.insertMany(teesItem)
+
+    const capsItem = capItems.map((product) => {
       return { ...product, user: adminUser }
     })
 
-    const pantItem = pantsItems.map((product) => {
+    await Product.insertMany(capsItem)
+
+    const pantsItem = pantsItems.map((product) => {
       return { ...product, user: adminUser }
     })
 
-    const setItem = setsItems.map((product) => {
-      return { ...product, user: adminUser }
-    })
+    await Product.insertMany(pantsItem)
 
     const tshirtsItem = tshirtItems.map((product) => {
       return { ...product, user: adminUser }
     })
 
-    const newArrival = newArrivals.map((product) => {
+    await Product.insertMany(tshirtsItem)
+
+    const hoodiesItem = hoodiesItems.map((product) => {
       return { ...product, user: adminUser }
     })
 
-    const capItem = capItems.map((product) => {
+    await Product.insertMany(hoodiesItem)
+
+    const knitwearsItem = knitwearItems.map((product) => {
       return { ...product, user: adminUser }
     })
 
-    const hoodieItem = hoodiesItems.map((product) => {
+    await Product.insertMany(knitwearsItem)
+
+    const setsItem = setsItems.map((product) => {
       return { ...product, user: adminUser }
     })
 
-    const knitwearItem = knitwearItems.map((product) => {
+    await Product.insertMany(setsItem)
+
+    const footwearsItem = footwearItems.map((product) => {
       return { ...product, user: adminUser }
     })
 
-    const footwearItem = footwearItems.map((product) => {
+    await Product.insertMany(footwearsItem)
+
+    const newItem = newArrivals.map((product) => {
       return { ...product, user: adminUser }
     })
 
-    await Product.insertMany([
-      teeItem,
-      pantItem,
-      setItem,
-      tshirtsItem,
-      newArrival,
-      capItem,
-      hoodieItem,
-      knitwearItem,
-      footwearItem,
-    ])
+    await Product.insertMany(newItem)
 
     console.log('Data Imported!'.green.inverse)
     process.exit()
