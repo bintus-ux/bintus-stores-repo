@@ -3,18 +3,16 @@ import dotenv from 'dotenv'
 import colors from 'colors'
 import connectDB from './config/db.js'
 import categoryItems from './data/categoryItems.js'
-import {
-  teesItems,
-  tshirtItems,
-  hoodiesItems,
-  knitwearItems,
-  footwearItems,
-  setsItems,
-  pantsItems,
-  shortItems,
-  newArrivals,
-} from './data/products.js'
 import capsRouter from './routes/capsRoute.js'
+import teesRouter from './routes/teesRoute.js'
+import tshirtsRouter from './routes/tshirtsRoute.js'
+import hoodiesRouter from './routes/hoodiesRoute.js'
+import knitwearsRouter from './routes/knitwearsRoute.js'
+import footwearsRouter from './routes/footwearsRoute.js'
+import setsRouter from './routes/setsRoute.js'
+import pantsRouter from './routes/pantsRoute.js'
+import shortsRouter from './routes/shortsRoute.js'
+import newArrivalsRouter from './routes/newArrivalsRoute.js'
 
 dotenv.config()
 
@@ -25,88 +23,29 @@ const app = express()
 app.get('/', (req, res) => {
   res.send('API is running....')
 })
-
-app.use('/api/categoryItems/caps', capsRouter)
-
 app.get('/api/categoryItems', (req, res) => {
   res.json(categoryItems)
 })
 
-app.get('/api/categoryItems/tees', (req, res) => {
-  res.json(teesItems)
-})
+app.use('/api/categoryItems/caps', capsRouter)
 
-app.get('/api/categoryItems/tees/:id', (req, res) => {
-  const tees = teesItems.find((p) => p.linkName === req.params.id)
-  res.json(tees)
-})
+app.use('/api/categoryItems/tees', teesRouter)
 
-app.get('/api/categoryItems/tshirts', (req, res) => {
-  res.json(tshirtItems)
-})
+app.use('/api/categoryItems/tshirts', tshirtsRouter)
 
-app.get('/api/categoryItems/tshirts/:id', (req, res) => {
-  const tshirt = tshirtItems.find((p) => p.linkName === req.params.id)
-  res.json(tshirt)
-})
+app.use('/api/categoryItems/hoodies', hoodiesRouter)
 
-app.get('/api/categoryItems/hoodies', (req, res) => {
-  res.json(hoodiesItems)
-})
+app.use('/api/categoryItems/knitwears', knitwearsRouter)
 
-app.get('/api/categoryItems/hoodies/:id', (req, res) => {
-  const hoodie = hoodiesItems.find((p) => p.linkName === req.params.id)
-  res.json(hoodie)
-})
+app.use('/api/categoryItems/footwears', footwearsRouter)
 
-app.get('/api/categoryItems/knitwears', (req, res) => {
-  res.json(knitwearItems)
+app.use('/api/categoryItems/sets', setsRouter)
 
-  app.get('/api/categoryItems/knitwears/:id', (req, res) => {
-    const knitwear = knitwearItems.find((p) => p.linkName === req.params.id)
-    res.json(knitwear)
-  })
-})
-app.get('/api/categoryItems/footwears', (req, res) => {
-  res.json(footwearItems)
-})
+app.use('/api/categoryItems/pants', pantsRouter)
 
-app.get('/api/categoryItems/footwears/:id', (req, res) => {
-  const footwear = footwearItems.find((p) => p.linkName === req.params.id)
-  res.json(footwear)
-})
+app.use('/api/categoryItems/shorts', shortsRouter)
 
-app.get('/api/categoryItems/sets', (req, res) => {
-  res.json(setsItems)
-})
-
-app.get('/api/categoryItems/sets/:id', (req, res) => {
-  const set = setsItems.find((p) => p.linkName === req.params.id)
-  res.json(set)
-})
-
-app.get('/api/categoryItems/pants', (req, res) => {
-  res.json(pantsItems)
-})
-
-app.get('/api/categoryItems/pants/:id', (req, res) => {
-  const pant = pantsItems.find((p) => p.linkName === req.params.id)
-  res.json(pant)
-})
-
-app.get('/api/categoryItems/shorts', (req, res) => {
-  res.json(shortItems)
-})
-
-app.get('/api/categoryItems/shorts/:id', (req, res) => {
-  const short = shortItems.find((p) => p.linkName === req.params.id)
-  res.json(short)
-})
-
-app.get('/api/categoryItems/New-Arrivals/:id', (req, res) => {
-  const newArrival = newArrivals.find((p) => p.linkName === req.params.id)
-  res.json(newArrival)
-})
+app.use('/api/categoryItems/newArrivals', newArrivalsRouter)
 
 const PORT = process.env.PORT || 5000
 

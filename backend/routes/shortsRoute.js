@@ -1,28 +1,28 @@
 import express from 'express'
 import asyncHandler from 'express-async-handler'
-const capsRouter = express.Router()
+const shortsRouter = express.Router()
 import Product from '../models/productModel.js'
 
-capsRouter.get(
+shortsRouter.get(
   '/',
   asyncHandler(async (req, res) => {
-    const capProducts = await Product.find({ category: 'Caps' })
+    const shortProducts = await Product.find({ category: 'Shorts' })
 
-    res.json(capProducts)
+    res.json(shortProducts)
   })
 )
 
-capsRouter.get(
+shortsRouter.get(
   '/:id',
   asyncHandler(async (req, res) => {
-    const cap = await Product.findById(req.params.id)
+    const short = await Product.findById(req.params.id)
 
-    if (cap) {
-      res.json(cap)
+    if (short) {
+      res.json(short)
     } else {
       res.status(404).json({ message: 'Product not found' })
     }
   })
 )
 
-export default capsRouter
+export default shortsRouter
