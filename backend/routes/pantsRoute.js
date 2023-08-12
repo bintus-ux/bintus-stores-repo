@@ -3,6 +3,10 @@ import asyncHandler from 'express-async-handler'
 const pantsRouter = express.Router()
 import Product from '../models/productModel.js'
 
+// @desc   Fetch all pant items
+// @route  GET /api/categoryItems
+// @access Public
+
 pantsRouter.get(
   '/',
   asyncHandler(async (req, res) => {

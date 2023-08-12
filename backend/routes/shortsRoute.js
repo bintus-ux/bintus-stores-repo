@@ -3,6 +3,10 @@ import asyncHandler from 'express-async-handler'
 const shortsRouter = express.Router()
 import Product from '../models/productModel.js'
 
+// @desc   Fetch all short items
+// @route  GET /api/categoryItems
+// @access Public
+
 shortsRouter.get(
   '/',
   asyncHandler(async (req, res) => {
