@@ -13,6 +13,7 @@ import setsRouter from './routes/setsRoute.js'
 import pantsRouter from './routes/pantsRoute.js'
 import shortsRouter from './routes/shortsRoute.js'
 import newArrivalsRouter from './routes/newArrivalsRoute.js'
+import { notFound, errorHandler } from './middleware/errorMiddleware.js'
 
 dotenv.config()
 
@@ -45,7 +46,11 @@ app.use('/api/categoryItems/pants', pantsRouter)
 
 app.use('/api/categoryItems/shorts', shortsRouter)
 
-app.use('/api/categoryItems/newArrivals', newArrivalsRouter)
+app.use('/api/categoryItems/New-Arrivals', newArrivalsRouter)
+
+app.use(notFound)
+
+app.use(errorHandler)
 
 const PORT = process.env.PORT || 5000
 
