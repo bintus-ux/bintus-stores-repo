@@ -39,6 +39,12 @@ const importData = async () => {
 
     const adminUser = createdUsers[0]._id
 
+    const newItem = newArrivals.map((product) => {
+      return { ...product, user: adminUser }
+    })
+
+    await Product.insertMany(newItem)
+
     const teesItem = teesItems.map((product) => {
       return { ...product, user: adminUser }
     })
@@ -85,12 +91,6 @@ const importData = async () => {
     })
 
     await Product.insertMany(footwearsItem)
-
-    const newItem = newArrivals.map((product) => {
-      return { ...product, user: adminUser }
-    })
-
-    await Product.insertMany(newItem)
 
     console.log('Data Imported!'.green.inverse)
     process.exit()

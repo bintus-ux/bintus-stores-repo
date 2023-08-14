@@ -30,7 +30,7 @@ export const teesItems = [
     desc_info: 'Please choose one size up as these run small',
     price: '9,000',
     info: 'Tax included. Shipping calculated at checkout.',
-    countInStock: 32,
+    countInStock: 0,
   },
   {
     name: 'Mens short-sleeve equilibrum T-shirt',
