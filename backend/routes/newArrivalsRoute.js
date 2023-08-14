@@ -8,7 +8,16 @@ import Product from '../models/productModel.js'
 // @access Public
 
 newArrivalsRouter.get(
-  '/:id',
+  '/new-arrivals',
+  asyncHandler(async (req, res) => {
+    const newArrivalProducts = await Product.find({}).limit(7)
+    console.log(newArrivalProducts)
+    res.json({ data: newArrivalProducts })
+  })
+)
+
+newArrivalsRouter.get(
+  '/New-Arrivals/:id',
   asyncHandler(async (req, res) => {
     const newArrival = await Product.findById(req.params.id)
 

@@ -46,7 +46,7 @@ app.use('/api/categoryItems/pants', pantsRouter)
 
 app.use('/api/categoryItems/shorts', shortsRouter)
 
-app.use('/api/categoryItems/New-Arrivals', newArrivalsRouter)
+app.use('/api/categoryItems', newArrivalsRouter)
 
 app.use(notFound)
 
