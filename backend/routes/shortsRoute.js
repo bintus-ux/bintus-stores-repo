@@ -1,32 +1,9 @@
 import express from 'express'
-import asyncHandler from 'express-async-handler'
 const shortsRouter = express.Router()
-import Product from '../models/productModel.js'
+import { getShorts, getShortById } from '../controllers/shortController.js'
 
-// @desc   Fetch all short items
-// @route  GET /api/categoryItems
-// @access Public
+shortsRouter.route('/').get(getShorts)
 
-shortsRouter.get(
-  '/',
-  asyncHandler(async (req, res) => {
-    const shortProducts = await Product.find({ category: 'Shorts' })
-
-    res.json(shortProducts)
-  })
-)
-
-shortsRouter.get(
-  '/:id',
-  asyncHandler(async (req, res) => {
-    const short = await Product.findById(req.params.id)
-
-    if (short) {
-      res.json(short)
-    } else {
-      res.status(404).json({ message: 'Product not found' })
-    }
-  })
-)
+shortsRouter.route('/:id').get(getShortById)
 
 export default shortsRouter

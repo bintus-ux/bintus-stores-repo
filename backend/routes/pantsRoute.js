@@ -1,32 +1,9 @@
 import express from 'express'
-import asyncHandler from 'express-async-handler'
 const pantsRouter = express.Router()
-import Product from '../models/productModel.js'
+import { getPants, getPantById } from '../controllers/pantController.js'
 
-// @desc   Fetch all pant items
-// @route  GET /api/categoryItems
-// @access Public
+pantsRouter.route('/').get(getPants)
 
-pantsRouter.get(
-  '/',
-  asyncHandler(async (req, res) => {
-    const pantProducts = await Product.find({ category: 'Pants' })
-
-    res.json(pantProducts)
-  })
-)
-
-pantsRouter.get(
-  '/:id',
-  asyncHandler(async (req, res) => {
-    const pant = await Product.findById(req.params.id)
-
-    if (pant) {
-      res.json(pant)
-    } else {
-      res.status(404).json({ message: 'Product not found' })
-    }
-  })
-)
+pantsRouter.route('/:id').get(getPantById)
 
 export default pantsRouter
