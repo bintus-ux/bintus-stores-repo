@@ -14,12 +14,15 @@ import pantsRouter from './routes/pantsRoute.js'
 import shortsRouter from './routes/shortsRoute.js'
 import newArrivalsRouter from './routes/newArrivalsRoute.js'
 import { notFound, errorHandler } from './middleware/errorMiddleware.js'
+import userRoutes from './routes/userRoutes.js'
 
 dotenv.config()
 
 connectDB()
 
 const app = express()
+
+app.use(express.json())
 
 app.get('/', (req, res) => {
   res.send('API is running....')
@@ -47,6 +50,8 @@ app.use('/api/categoryItems/pants', pantsRouter)
 app.use('/api/categoryItems/shorts', shortsRouter)
 
 app.use('/api/categoryItems', newArrivalsRouter)
+
+app.use('/api/users', userRoutes)
 
 app.use(notFound)
 
