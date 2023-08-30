@@ -15,6 +15,7 @@ import shortsRouter from './routes/shortsRoute.js'
 import newArrivalsRouter from './routes/newArrivalsRoute.js'
 import { notFound, errorHandler } from './middleware/errorMiddleware.js'
 import userRoutes from './routes/userRoutes.js'
+import orderRoutes from './routes/orderRoutes.js'
 
 dotenv.config()
 
@@ -52,6 +53,8 @@ app.use('/api/categoryItems/shorts', shortsRouter)
 app.use('/api/categoryItems', newArrivalsRouter)
 
 app.use('/api/users', userRoutes)
+
+app.use('/api/orders', orderRoutes)
 
 app.use(notFound)
 
