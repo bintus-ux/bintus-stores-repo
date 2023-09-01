@@ -16,6 +16,7 @@ import newArrivalsRouter from './routes/newArrivalsRoute.js'
 import { notFound, errorHandler } from './middleware/errorMiddleware.js'
 import userRoutes from './routes/userRoutes.js'
 import orderRoutes from './routes/orderRoutes.js'
+// import Stripe from 'stripe';(process.env.STRIPE_PRIVATE_KEY)
 
 dotenv.config()
 

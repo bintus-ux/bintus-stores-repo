@@ -76,7 +76,7 @@ const updateOrderToPaid = asyncHandler(async (req, res) => {
       res.json(order)
     } else {
       res.status(404)
-      throw new Error('sorry something wen wrong')
+      throw new Error('sorry something went wrong')
     }
   } else {
     res.status(404)
