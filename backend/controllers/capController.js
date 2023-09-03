@@ -6,9 +6,24 @@ import Product from '../models/productModel.js'
 // @access Public
 
 const getCaps = asyncHandler(async (req, res) => {
-  const capProducts = await Product.find({ category: 'Caps' })
+  const keyword = req.query.keyword
+    ? {
+        name: {
+          $regex: req.query.keyword,
+          $options: 'i',
+        },
+      }
+    : {}
 
-  res.json(capProducts)
+  const itemPageSize = 6
+  const itemPage = Number(req.query.pageNumber) || 1
+
+  const count = await Product.countDocuments()
+  const capItems = await Product.find({ category: 'Caps', ...keyword })
+    .limit(itemPageSize)
+    .skip(itemPageSize * (itemPage - 1))
+
+  res.json({ capItems, itemPage, pages: Math.ceil(count / itemPageSize) })
 })
 
 // @desc   Get single cap item
