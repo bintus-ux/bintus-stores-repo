@@ -6,9 +6,25 @@ import Product from '../models/productModel.js'
 // @access Public
 
 const getSets = asyncHandler(async (req, res) => {
-  const setProducts = await Product.find({ category: 'Sets' })
+  const keyword = req.query.keyword
+    ? {
+        name: {
+          $regex: req.query.keyword,
+          $options: 'i',
+        },
+      }
+    : {}
 
-  res.json(setProducts)
+  const itemPageSize = 6
+  const itemPage = Number(req.query.pageNumber) || 1
+
+  const count = await Product.countDocuments()
+
+  const setItems = await Product.find({ category: 'Sets', ...keyword })
+    .limit(itemPageSize)
+    .skip(itemPageSize * (itemPage - 1))
+
+  res.json({ setItems, itemPage, pages: Math.ceil(count / itemPageSize) })
 })
 
 // @desc   Get single set item

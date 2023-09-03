@@ -6,9 +6,25 @@ import Product from '../models/productModel.js'
 // @access Public
 
 const getTees = asyncHandler(async (req, res) => {
-  const teeProducts = await Product.find({ category: 'Tees' })
+  const keyword = req.query.keyword
+    ? {
+        name: {
+          $regex: req.query.keyword,
+          $options: 'i',
+        },
+      }
+    : {}
 
-  res.json(teeProducts)
+  const itemPageSize = 6
+  const itemPage = Number(req.query.pageNumber) || 1
+
+  const count = await Product.countDocuments()
+
+  const teeItems = await Product.find({ category: 'Tees', ...keyword })
+    .limit(itemPageSize)
+    .skip(itemPageSize * (itemPage - 1))
+
+  res.json({ teeItems, itemPage, pages: Math.ceil(count / itemPageSize) })
 })
 
 // @desc   Get single tee item

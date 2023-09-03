@@ -6,8 +6,16 @@ import Product from '../models/productModel.js'
 // @access Public
 
 const getNewArrivals = asyncHandler(async (req, res) => {
-  const newArrivalProducts = await Product.find({}).limit(7)
-  console.log(newArrivalProducts)
+  const keyword = req.query.keyword
+    ? {
+        name: {
+          $regex: req.query.keyword,
+          $options: 'i',
+        },
+      }
+    : {}
+
+  const newArrivalProducts = await Product.find({ ...keyword }).limit(7)
   res.json({ data: newArrivalProducts })
 })
 

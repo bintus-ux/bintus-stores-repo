@@ -6,9 +6,28 @@ import Product from '../models/productModel.js'
 // @access Public
 
 const getFootwears = asyncHandler(async (req, res) => {
-  const footwearProducts = await Product.find({ category: 'Footwears' })
+  const keyword = req.query.keyword
+    ? {
+        name: {
+          $regex: req.query.keyword,
+          $options: 'i',
+        },
+      }
+    : {}
 
-  res.json(footwearProducts)
+  const itemPageSize = 6
+  const itemPage = Number(req.query.pageNumber) || 1
+
+  const count = await Product.countDocuments()
+
+  const footwearItems = await Product.find({
+    category: 'Footwears',
+    ...keyword,
+  })
+    .limit(itemPageSize)
+    .skip(itemPageSize * (itemPage - 1))
+
+  res.json({ footwearItems, itemPage, pages: Math.ceil(count / itemPageSize) })
 })
 
 // @desc   Get single footwear item

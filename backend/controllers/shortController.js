@@ -6,9 +6,25 @@ import Product from '../models/productModel.js'
 // @access Public
 
 const getShorts = asyncHandler(async (req, res) => {
-  const shortProducts = await Product.find({ category: 'Shorts' })
+  const keyword = req.query.keyword
+    ? {
+        name: {
+          $regex: req.query.keyword,
+          $options: 'i',
+        },
+      }
+    : {}
 
-  res.json(shortProducts)
+  const itemPageSize = 6
+  const itemPage = Number(req.query.pageNumber) || 1
+
+  const count = await Product.countDocuments()
+
+  const shortItems = await Product.find({ category: 'Shorts', ...keyword })
+    .limit(itemPageSize)
+    .skip(itemPageSize * (itemPage - 1))
+
+  res.json({ shortItems, itemPage, pages: Math.ceil(count / itemPageSize) })
 })
 
 // @desc   Get single short item

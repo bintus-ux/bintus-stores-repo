@@ -6,9 +6,25 @@ import Product from '../models/productModel.js'
 // @access Public
 
 const getTshirts = asyncHandler(async (req, res) => {
-  const tshirtProducts = await Product.find({ category: 'Tshirts' })
+  const keyword = req.query.keyword
+    ? {
+        name: {
+          $regex: req.query.keyword,
+          $options: 'i',
+        },
+      }
+    : {}
 
-  res.json(tshirtProducts)
+  const itemPageSize = 6
+  const itemPage = Number(req.query.pageNumber) || 1
+
+  const count = await Product.countDocuments()
+
+  const tshirtItems = await Product.find({ category: 'Tshirts', ...keyword })
+    .limit(itemPageSize)
+    .skip(itemPageSize * (itemPage - 1))
+
+  res.json({ tshirtItems, itemPage, pages: Math.ceil(count / itemPageSize) })
 })
 
 // @desc   Get single tshirt item
