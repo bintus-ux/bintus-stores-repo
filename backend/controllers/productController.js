@@ -10,6 +10,7 @@ const getProductByCategory = asyncHandler(async (req, res) => {
   const page = Number(req.query.pageNumber) || 1
 
   const count = await Product.count({ category: req.query.category })
+
   const data = await Product.find({ category: req.query.category })
     .limit(pageSize)
     .skip(pageSize * (page - 1))
