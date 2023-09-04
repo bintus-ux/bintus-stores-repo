@@ -18,7 +18,10 @@ const getHoodies = asyncHandler(async (req, res) => {
   const itemPageSize = 6
   const itemPage = Number(req.query.pageNumber) || 1
 
-  const count = await Product.countDocuments()
+  const count = await Product.countDocuments({
+    category: 'Hoodies',
+    ...keyword,
+  })
 
   const hoodieItems = await Product.find({ category: 'Hoodies', ...keyword })
     .limit(itemPageSize)

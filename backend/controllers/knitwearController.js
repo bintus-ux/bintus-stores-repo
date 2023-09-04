@@ -15,19 +15,19 @@ const getKnitwears = asyncHandler(async (req, res) => {
       }
     : {}
 
-  const itemPageSize = 6
-  const itemPage = Number(req.query.pageNumber) || 1
+  const pageSize = 6
+  const page = Number(req.query.pageNumber) || 1
 
-  const count = await Product.countDocuments()
+  const count = await Product.countDocuments({ category: 'Knitwears' })
 
   const knitwearItems = await Product.find({
     category: 'Knitwears',
     ...keyword,
   })
-    .limit(itemPageSize)
-    .skip(itemPageSize * (itemPage - 1))
+    .limit(pageSize)
+    .skip(pageSize * (page - 1))
 
-  res.json({ knitwearItems, itemPage, pages: Math.ceil(count / itemPageSize) })
+  res.json({ knitwearItems, page, pages: Math.ceil(count / pageSize) })
 })
 
 // @desc   Get single knitwear item
