@@ -15,6 +15,7 @@ const getProductByCategory = asyncHandler(async (req, res) => {
     .limit(pageSize)
     .skip(pageSize * (page - 1))
   res.json({ data, page, pages: Math.ceil(count / pageSize) })
+  console.log(Math.ceil(count / pageSize))
 })
 
 // @desc   Get single cap item
@@ -33,8 +34,6 @@ const getProductById = asyncHandler(async (req, res) => {
 
 const searchProducts = asyncHandler(async (req, res) => {
   const keyword = req.params.keyword
-
-  console.log(keyword)
 
   const data = await Product.find({
     name: {
