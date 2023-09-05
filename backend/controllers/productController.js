@@ -41,7 +41,6 @@ const searchProducts = asyncHandler(async (req, res) => {
       $options: 'i',
     },
   })
-  console.log(data)
   if (data) {
     res.json(data)
   } else {
