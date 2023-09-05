@@ -15,7 +15,6 @@ const getProductByCategory = asyncHandler(async (req, res) => {
     .limit(pageSize)
     .skip(pageSize * (page - 1))
   res.json({ data, page, pages: Math.ceil(count / pageSize) })
-  console.log(Math.ceil(count / pageSize))
 })
 
 // @desc   Get single cap item
