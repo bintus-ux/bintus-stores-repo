@@ -22,6 +22,24 @@ const productSchema = mongoose.Schema(
     description: {
       type: String,
     },
+    desc_texture: {
+      type: String,
+    },
+    desc_weight: {
+      type: String,
+    },
+    desc_info: {
+      type: String,
+    },
+    desc_1: {
+      type: String,
+    },
+    desc_2: {
+      type: String,
+    },
+    desc_3: {
+      type: String,
+    },
     price: {
       type: String,
       required: true,
