@@ -48,4 +48,14 @@ const searchProducts = asyncHandler(async (req, res) => {
   }
 })
 
-export { getProductByCategory, getProductById, searchProducts }
+const getNewArrivals = asyncHandler(async (req, res) => {
+  const newArrivalItems = await Product.find({}).limit(7)
+
+  res.json({ data: newArrivalItems })
+})
+
+// @desc   Get single newArrival item
+// @route  GET /api/categoryItems/newArrivals/:id
+// @access Public
+
+export { getProductByCategory, getProductById, searchProducts, getNewArrivals }
